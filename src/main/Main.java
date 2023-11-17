@@ -4,6 +4,9 @@ import bank.BankAccount;
 import inventory.Inventory;
 import inventory.Product;
 import inventory.Warehouse;
+import university.Course;
+import university.Enrollment;
+import university.Student;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,5 +36,23 @@ public class Main {
         warehouse.setInventories("JOR");
         System.out.println(warehouse);
         System.out.println("------------------------------------");
+
+        Student student = new Student();
+        Course course = new Course();
+        Enrollment enrollment = new Enrollment();
+        student.setStudentId(5445);
+        student.setStudentName("Deya Bakheet");
+        course.setCourseId(489);
+        course.setCourseName("Java EE");
+        enrollment.setCourse(course);
+        enrollment.setStudent(student);
+        System.out.println(student);
+        System.out.println("------------------------------------");
+        System.out.println(course);
+        System.out.println("------------------------------------");
+        System.out.println(enrollment);
+        System.out.println("------------------------------------");
+
+
     }
 }
