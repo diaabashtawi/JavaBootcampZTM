@@ -1,4 +1,4 @@
-package university;
+package structure.university;
 
 public class Course {
     private int courseId;

@@ -1,4 +1,4 @@
-package inventory;
+package structure.inventory;
 
 public class Product {
 

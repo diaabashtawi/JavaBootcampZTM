@@ -1,4 +1,4 @@
-package footballtournament;
+package structure.footballtournament;
 
 public class Match {
 

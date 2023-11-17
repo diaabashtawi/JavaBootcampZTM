@@ -1,12 +1,12 @@
-package main;
+package structure.main;
 
-import bank.BankAccount;
-import inventory.Inventory;
-import inventory.Product;
-import inventory.Warehouse;
-import university.Course;
-import university.Enrollment;
-import university.Student;
+import structure.bank.BankAccount;
+import structure.inventory.Inventory;
+import structure.inventory.Product;
+import structure.inventory.Warehouse;
+import structure.university.Course;
+import structure.university.Enrollment;
+import structure.university.Student;
 
 public class Main {
     public static void main(String[] args) {

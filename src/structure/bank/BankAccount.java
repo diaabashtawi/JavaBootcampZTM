@@ -1,4 +1,4 @@
-package bank;
+package structure.bank;
 
 public class BankAccount {
 
