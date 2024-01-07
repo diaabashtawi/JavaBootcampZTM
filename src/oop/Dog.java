@@ -4,6 +4,10 @@ public class Dog extends Animal{
 
     public static String type = "Dog";
 
+    public Dog(String sound) {
+        super(sound);
+    }
+
     @Override
     public void eat(){
         System.out.println("Dog is eating......");

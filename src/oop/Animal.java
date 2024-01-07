@@ -5,10 +5,23 @@ public class Animal {
     public static String type = "animal";
 
     private String name;
+
+    private String sound;
     private int age;
+
+    public Animal(String sound) {
+        setSound(sound);
+    }
+
+
+    public void makeSound(){
+        System.out.println("Animal sound : " + sound);
+    }
+
     public void eat(){
         System.out.println("Animal eating....");
     }
+
 
     public String getName() {
         return name;
@@ -26,5 +39,13 @@ public class Animal {
         if (age > 0) {
             this.age = age;
         }
+    }
+
+    public String getSound() {
+        return sound;
+    }
+
+    public void setSound(String sound) {
+        this.sound = sound;
     }
 }
