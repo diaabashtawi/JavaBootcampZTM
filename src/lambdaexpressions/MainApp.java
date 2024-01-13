@@ -18,5 +18,16 @@ public class MainApp {
         System.out.println("-----------------------------------");
         NumberProvider n1 = ()->1024;
         System.out.println(n1.provide());
+        System.out.println("-----------------------------------");
+        int result1 = execute(3, 5, c1);
+        int result2 = execute(3, 5, c2);
+        int result3 = execute(3, 5, c3);
+        System.out.println("result1 : " + result1);
+        System.out.println("result2 : " + result2);
+        System.out.println("result3 : " + result3);
+    }
+
+    public static int execute(int num1, int num2, Calculater calculater){
+        return calculater.calculate(num1, num2);
     }
 }
