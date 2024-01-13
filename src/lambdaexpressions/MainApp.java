@@ -15,5 +15,8 @@ public class MainApp {
         System.out.println("-----------------------------------");
         Printer p1 = s -> System.out.println("Printer says : " + s);
         p1.print("Hi, Deya Bakheet");
+        System.out.println("-----------------------------------");
+        NumberProvider n1 = ()->1024;
+        System.out.println(n1.provide());
     }
 }
